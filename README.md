@@ -1,14 +1,16 @@
-# SMuFL for FontLab 8 & 9
+# SMuFL Menus for FontLab 8 & 9
 
 **Developed by Nor Eddine Bahha — [NorFonts](https://norfont.com/).**
 
-**Organized SMuFL encoding collections for FontLab 8 and FontLab 9 (macOS).**
+**Organized SMuFL Encoding menus for FontLab 8 and FontLab 9 (macOS).**
 
 This tool generates native `.enc` files organized by musical function, helping music-font designers browse related SMuFL glyphs directly in FontLab's **Encoding** menu.
 
 > **Status: experimental / community project.** The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. Review the preview before installing.
 
 ## FontLab 8 Encoding Menu Gallery
+
+**Encoding menu only — not the left sidebar or Bookmarks panel.** These previews reproduce the dropdown-list styling; they do not suggest that SMuFL folders can be added automatically to FontLab’s sidebar.
 
 **Illustrative previews, not screenshots from live sessions.** The images below recreate the look of the author's FontLab 8 Encoding menu screenshot. Section names, list counts, and shown glyph counts are based on a read-only FontLab 8 inspector; long labels may be abbreviated. Additional lists are summarized where not shown.
 
