@@ -1,5 +1,7 @@
 # Attribution and third-party notices
 
+**FontLab adaptation developed by Nor Eddine Bahha — [NorFonts](https://norfont.com/).**
+
 **SMuFL for FontLab 8 & 9** is an independent FontLab encoding-list generator adapted from publicly available SMuFL classification metadata.
 
 ## Upstream classification data
