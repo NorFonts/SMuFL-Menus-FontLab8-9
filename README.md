@@ -8,6 +8,107 @@ This tool generates native `.enc` files organized by musical function, helping m
 
 > **Status: experimental / community project.** The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. Review the preview before installing.
 
+## FontLab 8 Encoding Menu Gallery
+
+**Illustrative previews, not screenshots from live sessions.** The images below recreate the look of the author's FontLab 8 Encoding menu screenshot. Section names, list counts, and shown glyph counts are based on a read-only FontLab 8 inspector; long labels may be abbreviated. Additional lists are summarized where not shown.
+
+<details>
+<summary><strong>Show the 23 illustrated SMuFL sections</strong></summary>
+
+### SMuFL Quick
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Quick](docs/images/fontlab8-smufl-quick.svg)
+
+### SMuFL Common
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Common](docs/images/fontlab8-smufl-common.svg)
+
+### SMuFL Staff & Clefs
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Staff & Clefs](docs/images/fontlab8-smufl-staff-and-clefs.svg)
+
+### SMuFL Notes & Rests
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Notes & Rests](docs/images/fontlab8-smufl-notes-and-rests.svg)
+
+### SMuFL Rhythm & Time
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Rhythm & Time](docs/images/fontlab8-smufl-rhythm-and-time.svg)
+
+### SMuFL Accidentals
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Accidentals](docs/images/fontlab8-smufl-accidentals.svg)
+
+### SMuFL Microtonal
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Microtonal](docs/images/fontlab8-smufl-microtonal.svg)
+
+### SMuFL World Music
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL World Music](docs/images/fontlab8-smufl-world-music.svg)
+
+### SMuFL Articulation
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Articulation](docs/images/fontlab8-smufl-articulation.svg)
+
+### SMuFL Dynamics
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Dynamics](docs/images/fontlab8-smufl-dynamics.svg)
+
+### SMuFL Ornaments
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Ornaments](docs/images/fontlab8-smufl-ornaments.svg)
+
+### SMuFL Techniques
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Techniques](docs/images/fontlab8-smufl-techniques.svg)
+
+### SMuFL Percussion
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Percussion](docs/images/fontlab8-smufl-percussion.svg)
+
+### SMuFL Instruments
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Instruments](docs/images/fontlab8-smufl-instruments.svg)
+
+### SMuFL Chords
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Chords](docs/images/fontlab8-smufl-chords.svg)
+
+### SMuFL Theory
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Theory](docs/images/fontlab8-smufl-theory.svg)
+
+### SMuFL Medieval
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Medieval](docs/images/fontlab8-smufl-medieval.svg)
+
+### SMuFL Tablature
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Tablature](docs/images/fontlab8-smufl-tablature.svg)
+
+### SMuFL Special Notation
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Special Notation](docs/images/fontlab8-smufl-special-notation.svg)
+
+### SMuFL Text & Signs
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Text & Signs](docs/images/fontlab8-smufl-text-and-signs.svg)
+
+### SMuFL Graphics
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Graphics](docs/images/fontlab8-smufl-graphics.svg)
+
+### SMuFL Supplements
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Supplements](docs/images/fontlab8-smufl-supplements.svg)
+
+### SMuFL Miscellaneous
+
+![Illustrative FontLab 8 encoding-menu preview for SMuFL Miscellaneous](docs/images/fontlab8-smufl-miscellaneous.svg)
+
+</details>
+
 ## Features
 
 - Based on approximately **2,940 glyph definitions** from the upstream project.
