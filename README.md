@@ -1,5 +1,7 @@
 # SMuFL for FontLab 8 & 9
 
+**Developed by Nor Eddine Bahha — [NorFonts](https://norfont.com/).**
+
 **Organized SMuFL encoding collections for FontLab 8 and FontLab 9 (macOS).**
 
 This independent FontLab adaptation takes inspiration from [SMuFL-Glyphs4 by Shinianqi](https://github.com/Shinianqi/SMuFL-Glyphs4) and uses its published SMuFL classification metadata. It generates native `.enc` files grouped by musical function, to help music-font designers browse related glyphs in FontLab's **Encoding** menu.
@@ -55,6 +57,10 @@ python3 smufl_organized.py --help
 The existing generator uses exclusive creation for encoding files. It **never overwrites, renames, deletes, or backs up** existing encoding files, and does not edit FontLab preferences or the application bundles. It refuses to install if destination directories do not satisfy its checks. Previous SMuFL encodings remain visible and must be reviewed separately if you choose to remove them manually. Never run old experimental installers or uninstallers as part of this process.
 
 This does **not** restore missing older custom encodings, and it does **not** automatically add items to FontLab's left-hand **Bookmarks** sidebar. It only generates Encoding menu entries. FontLab matches the generated glyph names against those in the opened font; fonts using canonical SMuFL names will need a different mapping.
+
+## Author
+
+**Nor Eddine Bahha** — [NorFonts](https://norfont.com/)
 
 ## Data and credits
 
