@@ -6,7 +6,7 @@
 
 This tool generates native `.enc` files organized by musical function, helping music-font designers browse related SMuFL glyphs directly in FontLab's **Encoding** menu.
 
-> **Status: experimental / community project.** The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. Review the preview before installing.
+> ***Status: experimental / community project.*** *The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. Review the preview before installing.*
 
 ## FontLab 8 Encoding Menu Gallery
 
