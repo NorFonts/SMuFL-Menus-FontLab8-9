@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# macOS
+.DS_Store
+._*
+__MACOSX/
+# Generated encodings (do not commit local user data)
+*.enc
