@@ -4,7 +4,7 @@
 
 **Organized SMuFL encoding collections for FontLab 8 and FontLab 9 (macOS).**
 
-This independent FontLab adaptation takes inspiration from [SMuFL-Glyphs4 by Shinianqi](https://github.com/Shinianqi/SMuFL-Glyphs4) and uses its published SMuFL classification metadata. It generates native `.enc` files grouped by musical function, to help music-font designers browse related glyphs in FontLab's **Encoding** menu.
+This tool generates native `.enc` files organized by musical function, helping music-font designers browse related SMuFL glyphs directly in FontLab's **Encoding** menu.
 
 > **Status: experimental / community project.** The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. Review the preview before installing.
 
