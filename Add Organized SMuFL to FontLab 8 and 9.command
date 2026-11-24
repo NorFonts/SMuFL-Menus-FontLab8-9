@@ -1,9 +1,15 @@
 #!/bin/bash
+# Copyright © 2026 Nor Eddine Bahha — NorFonts.
+# Website: https://norfont.com
+# Licensed under the Apache License, Version 2.0 (see LICENSE).
 # Strict add-only: no file replacement, deletion, migration or backups.
 cd "$(dirname "$0")" || exit 1
 printf '\n=================================================================\n'
-printf ' SMuFL — Organized Collections for FontLab 8 and FontLab 9\n'
+printf ' SMuFL Menus for FontLab 8 & 9\n'
 printf ' ADD ONLY • NO BACKUPS • NO OVERWRITES • NO DELETIONS\n'
+printf '=================================================================\n'
+printf ' Copyright © 2026 Nor Eddine Bahha — NorFonts.\n'
+printf ' Website: https://norfont.com\n'
 printf '=================================================================\n\n'
 printf ' Creates purpose-based sections including:\n'
 printf ' Quick, Common, Medieval, Techniques, Microtonal, Percussion,\n'
