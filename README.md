@@ -1,20 +1,22 @@
 # SMuFL Menus for FontLab 8 & 9
 
-**Developed by Nor Eddine Bahha — [NorFonts](https://norfont.com/).**
+**Organized SMuFL Encoding menus for FontLab 8 and 9 (macOS)**, developed by **Nor Eddine Bahha** — [NorFonts](https://norfont.com/).
 
-**Organized SMuFL Encoding menus for FontLab 8 and FontLab 9 (macOS).**
-
-This tool generates native `.enc` files organized by musical function, helping music-font designers browse related SMuFL glyphs directly in FontLab's **Encoding** menu.
+This free, community-developed tool generates native `.enc` files organized by musical function, helping music-font designers browse related SMuFL glyphs directly in FontLab's **Encoding** menu.
 
 ### Compatibility
 
 > ***Status: experimental / community project.*** *The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. Review the preview before installing.*
 
+## Screenshots
+
+**Actual FontLab 8 Encoding menu (macOS)**
+
 ![Actual FontLab 8 Encoding selector showing the organized SMuFL groups](docs/images/fontlab8-smufl-encoding-menu-real.png)
 
 *Actual screenshot of the SMuFL Encoding menu in FontLab 8 on macOS. These sections are available from the Encoding selector, not the left-hand Bookmarks panel.*
 
-## FontLab 8 Encoding Menu Gallery
+### Illustrated Encoding Menu Gallery
 
 **Encoding menu only — not the left sidebar or Bookmarks panel.** These previews reproduce the dropdown-list styling; they do not suggest that SMuFL folders can be added automatically to FontLab’s sidebar.
 
@@ -133,7 +135,7 @@ This tool generates native `.enc` files organized by musical function, helping m
 - Internet access to download the source JSON metadata at runtime.
 - Existing FontLab Encoding directories.
 
-## Install
+## Install (macOS)
 
 1. Quit FontLab 8 and 9.
 2. Extract the project ZIP or clone the repository.
@@ -149,7 +151,15 @@ Default destination folders:
 ~/Library/Application Support/FontLab/FontLab 9/Encoding/
 ```
 
-You can generate a preview directly in Terminal:
+## Important safety behavior
+
+The existing generator uses exclusive creation for encoding files. It **never overwrites, renames, deletes, or backs up** existing encoding files, and does not edit FontLab preferences or the application bundles. It refuses to install if destination directories do not satisfy its checks. Previous SMuFL encodings remain visible and must be reviewed separately if you choose to remove them manually. Never run old experimental installers or uninstallers as part of this process.
+
+This does **not** restore missing older custom encodings, and it does **not** automatically add items to FontLab's left-hand **Bookmarks** sidebar. It only generates Encoding menu entries. FontLab matches the generated glyph names against those in the opened font; fonts using canonical SMuFL names will need a different mapping.
+
+## Terminal commands
+
+Use Terminal to preview the planned changes without writing files:
 
 ```bash
 python3 smufl_organized.py --preview
@@ -161,22 +171,18 @@ For available command-line options:
 python3 smufl_organized.py --help
 ```
 
-## Important safety behavior
-
-The existing generator uses exclusive creation for encoding files. It **never overwrites, renames, deletes, or backs up** existing encoding files, and does not edit FontLab preferences or the application bundles. It refuses to install if destination directories do not satisfy its checks. Previous SMuFL encodings remain visible and must be reviewed separately if you choose to remove them manually. Never run old experimental installers or uninstallers as part of this process.
-
-This does **not** restore missing older custom encodings, and it does **not** automatically add items to FontLab's left-hand **Bookmarks** sidebar. It only generates Encoding menu entries. FontLab matches the generated glyph names against those in the opened font; fonts using canonical SMuFL names will need a different mapping.
-
 ## Author
 
 **Nor Eddine Bahha** — [NorFonts](https://norfont.com/)
 
-## Data and credits
+This is an **independent FontLab 8 & 9 adaptation**, not an official FontLab extension or a product endorsed by FontLab or the W3C Music Notation Community Group. See [NOTICE.md](NOTICE.md) for source attribution and third-party licensing.
 
-The generator downloads JSON metadata from `Shinianqi/SMuFL-Glyphs4` rather than embedding those JSON files in this repository. The metadata is based on the [SMuFL specification](https://www.smufl.org/).
+## License and attribution
 
-See [NOTICE.md](NOTICE.md) for source attribution and third-party licensing. This repository is a **separate FontLab adaptation**, not an official Glyphs 4 plugin or a W3C/SMuFL endorsed product.
+**© 2026 Nor Eddine Bahha — [NorFonts](https://norfont.com/). All rights reserved except as expressly licensed.**
 
-## License
+The original project code is distributed under [Apache License 2.0](LICENSE). The generator downloads music classification metadata from [SMuFL-Glyphs4](https://github.com/Shinianqi/SMuFL-Glyphs4) at runtime rather than embedding its JSON data in this repository; that metadata is based on the [SMuFL specification](https://www.smufl.org/). Third-party material retains its respective copyright and license terms; see [NOTICE.md](NOTICE.md).
 
-The original adaptation code in this repository is offered under [Apache License 2.0](LICENSE). Third-party content retains its own copyright and license terms; refer to [NOTICE.md](NOTICE.md).
+## Related NorFonts Projects
+
+Looking for the FontCreator version? Explore [SMuFL Menus for FontCreator 16](https://github.com/NorFonts/SMuFL-Menu-FontCreator16), which organizes SMuFL Glyph Sets in FontCreator's native **Categories → Glyph Sets** panel.
