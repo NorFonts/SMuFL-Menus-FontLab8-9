@@ -6,7 +6,7 @@ This free, community-developed tool generates native `.enc` files organized by m
 
 ### Compatibility
 
-> ***Status: experimental / community project.*** *The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. Review the preview before installing.*
+> ***Status: experimental / community project.*** *The menu has been inspected in FontLab 8; end-to-end operation across FontLab 8 and FontLab 9 installations is not fully verified. **Windows compatibility has not been tested.** The supplied `.command` launcher and default installation paths are intended for macOS; a Windows-specific installation procedure would require separate adaptation and verification. Review the preview before installing.*
 
 ## Screenshots
 
