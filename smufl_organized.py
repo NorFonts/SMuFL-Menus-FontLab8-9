@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright © 2026 Nor Eddine Bahha — NorFonts.
+# Website: https://norfont.com
+# License: Apache-2.0 (see LICENSE); third-party data notices: NOTICE.md.
 """SMuFL-Glyphs4 data -> organized FontLab 8/9 .enc menus, add-only.
 
 Source: github.com/Shinianqi/SMuFL-Glyphs4 (Apache-2.0)
